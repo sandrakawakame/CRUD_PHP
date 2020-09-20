@@ -1,0 +1,60 @@
+.panel-heading{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(40,49,64);
+    text-align: center;
+    color: white;
+}
+#tabela{
+    border-collapse: collapse;
+    width: 100%;
+}
+#tabela td, #tabela th{
+    border:1px solid #ddd;
+    padding: 13px;
+}
+#tabela tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#tabela tr:hover{
+    background-color: #ddd ;
+}
+#tabela th{
+    padding-top: 12px ;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(164, 169, 181);
+    color: rgb(94, 90, 90);
+}
+a#editar{
+        width:200px;
+        height:300px;
+        background-color: rgb(85, 93, 109);
+        color: white;
+        padding: 8px 50px;
+        margin: 5px 5px 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+}
+
+a#excluir{
+    width:200px;
+    height:300px;
+    background-color: rgb(208,42,58);
+    color: white;
+    padding: 8px 50px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+input#nomeCliente{
+    width: 33rem;
+    margin: 5px 20px;
+}
+select{
+    width: 33rem;
+    margin: 5px 20px;
+}
+
